@@ -19,7 +19,9 @@ Gemini SRT Translator is a tool designed to translate subtitle files using Googl
 To install Gemini SRT Translator, use pip:
 
 ```sh
-pip install gemini-srt-translator
+pip install PyQt6
+pip install google-generativeai
+pip install srt
 ```
 
 ## Setup
@@ -36,7 +38,9 @@ To use Gemini SRT Translator, you need to generate a free API key from Google AI
 You will use this API key for setting up the script before starting the translation process.
 
 ## Usage
-
+```sh
+python Gui.py
+```
 ### Translate Subtitles
 
 You can translate subtitles using the `translate` command:
